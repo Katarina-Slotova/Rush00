@@ -1,0 +1,151 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #1B1A1A;
+	color: white;
+	height: 4rem;
+	position: relative;
+}
+
+body {
+	background-color: #52656e;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+h1 {
+	color: whitesmoke;
+	text-align: center;
+	font-size: 5rem;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	padding: 1rem 1rem;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: x-large;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.categories {
+	visibility: hidden;
+	position: absolute;
+	top: 3.8rem;
+}
+
+li:hover > ul {
+	display: block;
+	visibility: visible;
+	background-color: greenyellow;
+}
+
+ul li:hover {
+	display: block;
+	background-color: aqua;
+	text-transform: uppercase;
+}
+
+.logo {
+	height: 100%;
+	background:transparent;
+	position: absolute;
+	right: 76rem;
+}
+
+.signed, .signing {
+	position: absolute;
+	right: 0;
+}
+
+p.signed {
+	right: 30rem;
+	text-transform: uppercase;
+	margin-top: 1.5rem;
+}
+
+.signing {
+	display: block;
+	padding: 1.4rem;
+}
+.gallery {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nft-img {
+	width: 500px;
+	height: 20rem;
+}
+
+.nft-price {
+	background-color: #94aab4;
+}
+
+.nft-item {
+	padding: 1rem;
+}
+
+form.sign-form input {
+	padding: 5rem;
+}
+
+input[type="submit"].logout {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	display: block;
+	visibility: visible;
+	background-color: red;
+	text-transform: uppercase;
+	padding: 1.4rem;
+	z-index: 10;
+}
+
+.nft-price {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.delete {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	display: block;
+	visibility: visible;
+	background-color: rgb(159, 114, 24);
+	text-transform: uppercase;
+	padding: 1.4rem;
+	position: relative;
+	right: 8rem;
+}
